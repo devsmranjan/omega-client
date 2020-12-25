@@ -1,0 +1,30 @@
+.col {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    overflow: auto;
+}
+
+.fullSizeImage {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.textfieldLeading {
+    background-color: #ffffff;
+    border-radius: 2px;
+    font-size: 1rem;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.bgImgContainer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #f1c40f7a; */
+}

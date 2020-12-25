@@ -1,0 +1,24 @@
+.container {
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    padding: 60px 36px 60px 36px;
+}
+
+.selectWrapper {
+    border-radius: 2px;
+    display: block;
+    overflow: hidden;
+    background: #cccccc;
+    border: 1px solid #cccccc;
+}
+
+.select {
+    outline: none;
+    border: none;
+    width: 100%;
+    padding-right: 8px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+

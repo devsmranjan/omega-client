@@ -1,0 +1,27 @@
+.app {
+    font-family: var(--font-sans-serif);
+    background-color: #ffffff;
+    /* background-color: #F5F5FB; */
+}
+
+.formControl {
+    border-radius: 4px;
+    font-family: var(--font-mono);
+    letter-spacing: -1px;
+}
+
+.heading {
+    font-family: var(--font-sans-serif);
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.modal-body {
+    padding: 24px 36px 46px 36px;
+}
+
+.modal-body .heading {
+    font-size: 1rem;
+    font-family: var(--font-mono);
+    margin-bottom: 18px;
+}

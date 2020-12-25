@@ -1,0 +1,22 @@
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid rgba(160, 160, 160, 0.123);
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.navlink {
+    text-transform: uppercase;
+}
+
+.navlink:hover {
+    /* color: var(--color-primary) !important; */
+}
+
+.navbarBrand {
+    /* font-family: 'Cookie', cursive; */
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    line-height: 0;
+}

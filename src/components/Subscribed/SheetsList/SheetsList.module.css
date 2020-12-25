@@ -1,0 +1,16 @@
+.table {
+    background-color: transparent;
+    /* color: #ffffff; */
+    font-family: var(--font-sans-serif)
+}
+
+.th {
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-family: var(--font-mono);
+}
+
+.noDataImg {
+    height: 150px;
+    margin-bottom: 24px;
+}

@@ -1,0 +1,34 @@
+.raisedButton {
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    padding: 10px 32px;
+    letter-spacing: 0.1rem;
+    font-weight: 800;
+    background-color: var(--color-secondary);
+    border-color: var(--color-secondary);
+    transition: 0.3s all;
+    /* margin-left: 4px;
+    margin-right: 4px; */
+   font-family: var(--font-mono);
+}
+.raisedButton:hover {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+.inverseBtn {
+    background-color: #ecf0f1cc;
+    border-color: #ecf0f1cc;
+    color: black;
+}
+
+.inverseBtn:hover {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: black;
+    -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+        0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+        0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}

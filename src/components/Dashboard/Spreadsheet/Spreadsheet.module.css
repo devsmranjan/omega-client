@@ -1,0 +1,18 @@
+.container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.heading {
+    margin-bottom: 18px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    /* text-transform: uppercase; */
+}
+
+.table {
+    width: 98.5%;
+    margin-left: 14px;
+    /* margin-right: 54px; */
+}

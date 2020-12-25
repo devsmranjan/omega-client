@@ -1,0 +1,33 @@
+.deleteButton {
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    padding: 10px 32px;
+    letter-spacing: 0.1rem;
+    font-weight: 800;
+    background-color: var(--color-delete);
+    border-color: var(--color-delete);
+    transition: 0.3s all;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-family: var(--font-mono);
+}
+.deleteButton:hover {
+    background-color: var(--color-delete-dark);
+    border-color: var(--color-delete-dark);
+}
+
+.iconButton {
+    padding: 0px;
+    background-color: transparent;
+    border-color: transparent;
+    color: var(--color-delete);
+}
+
+.iconButton:hover {
+    background-color: transparent;
+    border-color: transparent;
+    color: var(--color-delete);
+}
+
+
