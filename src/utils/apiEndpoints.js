@@ -1,25 +1,25 @@
 module.exports = {
-    AUTH_SIGNUP: '/api/auth/signup',
-    AUTH_LOGIN: '/api/auth/login',
-    AUTH_RECOVER: '/api/auth/recover',
-    AUTH_RESET_PASSWORD_CHECK: '/api/auth/reset',
-    AUTH_VERIFY_EMAIL_RESEND: '/api/auth/resend',
-    AUTH_VERIFY_EMAIL: '/api/auth/verify',
+    AUTH_SIGNUP: `${process.env.REACT_APP_SERVER_ENDPOINT}/auth/signup`,
+    AUTH_LOGIN: `${process.env.REACT_APP_SERVER_ENDPOINT}/auth/login`,
+    AUTH_RECOVER: `${process.env.REACT_APP_SERVER_ENDPOINT}/auth/recover`,
+    AUTH_RESET_PASSWORD_CHECK: `${process.env.REACT_APP_SERVER_ENDPOINT}/auth/reset`,
+    AUTH_VERIFY_EMAIL_RESEND: `${process.env.REACT_APP_SERVER_ENDPOINT}/auth/resend`,
+    AUTH_VERIFY_EMAIL: `${process.env.REACT_APP_SERVER_ENDPOINT}/auth/verify`,
 
     // user
-    USER_ENDPOINT: '/api/user',
-    USER_UPDATE: '/api/user/update',
-    USER_UPDATE_PASSWORD: '/api/user/updatePassword',
-    USER_DELETE: '/api/user/deleteAccount',
+    USER_ENDPOINT: `${process.env.REACT_APP_SERVER_ENDPOINT}/user`,
+    USER_UPDATE: `${process.env.REACT_APP_SERVER_ENDPOINT}/user/update`,
+    USER_UPDATE_PASSWORD: `${process.env.REACT_APP_SERVER_ENDPOINT}/user/updatePassword`,
+    USER_DELETE: `${process.env.REACT_APP_SERVER_ENDPOINT}/user/deleteAccount`,
 
     // subscriptions
-    SUBSCRIPTIONS_ENDPOINT: '/api/subscriptions',
-    ADD_SUBSCRIPTION: '/api/subscriptions/add/google',
+    SUBSCRIPTIONS_ENDPOINT: `${process.env.REACT_APP_SERVER_ENDPOINT}/subscriptions`,
+    ADD_SUBSCRIPTION: `${process.env.REACT_APP_SERVER_ENDPOINT}/subscriptions/add/google`,
 
     // spreadsheets
-    SPREADSHEETS_ENDPOINT: '/api/spreadsheets',
-    SPREADSHEETS_FROM_API: '/api/spreadsheets/sheetsFromAPI',
-    SPREADSHEET_TABS_FROM_API: '/api/spreadsheets/sheetTabsFromAPI',
+    SPREADSHEETS_ENDPOINT: `${process.env.REACT_APP_SERVER_ENDPOINT}/spreadsheets`,
+    SPREADSHEETS_FROM_API: `${process.env.REACT_APP_SERVER_ENDPOINT}/spreadsheets/sheetsFromAPI`,
+    SPREADSHEET_TABS_FROM_API: `${process.env.REACT_APP_SERVER_ENDPOINT}/spreadsheets/sheetTabsFromAPI`,
 
     //
 };

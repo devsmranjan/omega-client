@@ -1,4 +1,5 @@
 import axios from 'axios';
+import apiEndpoints from '../utils/apiEndpoints';
 import { clearErrors, returnErrors } from './errorActions';
 import {
     UPDATE_SUBSCRIBED_USER_FAIL,
@@ -12,7 +13,11 @@ import {
 // update newly subscribed in database
 export const updateSubscribedUser = (params) => async (dispatch) => {
     try {
-        await axios.put('/api/subscriptions', params, tokenConfig());
+        await axios.put(
+            apiEndpoints.SUBSCRIPTIONS_ENDPOINT,
+            params,
+            tokenConfig()
+        );
 
         dispatch({
             type: UPDATE_SUBSCRIBED_USER_SUCCESS,
@@ -40,7 +45,10 @@ export const updateSubscribedUser = (params) => async (dispatch) => {
 // fetch all subscriptions
 export const fetchSubscriptions = () => async (dispatch) => {
     try {
-        const response = await axios.get('/api/subscriptions', tokenConfig());
+        const response = await axios.get(
+            apiEndpoints.SUBSCRIPTIONS_ENDPOINT,
+            tokenConfig()
+        );
         dispatch({
             type: FETCH_SUBSCRIPTIONS_SUCCESS,
             payload: response.data,
@@ -61,7 +69,7 @@ export const fetchSubscriptions = () => async (dispatch) => {
 export const fetchSubscriptionByUID = (uid) => async (dispatch) => {
     try {
         const response = await axios.get(
-            `/api/subscriptions?uid=${uid}`,
+            `${apiEndpoints.SUBSCRIPTIONS_ENDPOINT}?uid=${uid}`,
             tokenConfig()
         );
 
@@ -86,7 +94,7 @@ export const fetchSubscriptionByUID = (uid) => async (dispatch) => {
 export const removeSubscription = (uid) => async (dispatch) => {
     try {
         const response = await axios.delete(
-            `/api/subscriptions/${uid}`,
+            `${apiEndpoints.SUBSCRIPTIONS_ENDPOINT}/${uid}`,
             tokenConfig()
         );
 

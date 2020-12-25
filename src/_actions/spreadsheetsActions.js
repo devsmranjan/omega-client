@@ -1,4 +1,4 @@
-import {
+import apiEndpoints, {
     SPREADSHEETS_ENDPOINT,
     SPREADSHEETS_FROM_API,
     SPREADSHEET_TABS_FROM_API,
@@ -118,7 +118,7 @@ export const addSubscribedSpreadsheet = (data) => async (dispatch) => {
 export const removeSubscribedSpreadsheet = (sheetId) => async (dispatch) => {
     try {
         const response = await axios.delete(
-            `/api/spreadsheets/${sheetId}`,
+            `${apiEndpoints.SPREADSHEETS_ENDPOINT}/${sheetId}`,
             tokenConfig()
         );
 
