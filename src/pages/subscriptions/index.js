@@ -121,7 +121,7 @@ const SubscriptionsPage = (props) => {
                                     <Row>
                                         <Col md={8}>
                                             <h6
-                                                className="mt-2 heading"
+                                                className="mt-2 heading-title"
                                                 style={{
                                                     color:
                                                         'var(--color-primary)',

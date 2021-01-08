@@ -127,7 +127,7 @@ const AllSpreadsheets = () => {
                                 className={styles.noSubImg}
                                 alt="No subscription"
                             />
-                            <h5 className="heading mt-5">
+                            <h5 className="heading-title mt-5">
                                 No spreadsheet subscribed yet...
                             </h5>
                         </div>
