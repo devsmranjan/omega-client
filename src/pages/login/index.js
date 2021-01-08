@@ -1,5 +1,5 @@
 import React from 'react';
-import { useSelector} from 'react-redux';
+import { useSelector } from 'react-redux';
 import { Row, Col } from 'react-bootstrap';
 import styles from './login.module.css';
 import BG1 from '../../assets/background/asset-4.svg';

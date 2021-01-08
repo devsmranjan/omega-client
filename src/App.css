@@ -16,6 +16,12 @@
     font-size: 2rem;
 }
 
+.heading-title {
+    font-family: var(--font-cursive);
+    font-weight: 900;
+    font-size: 2rem;
+}
+
 .modal-body {
     padding: 24px 36px 46px 36px;
 }

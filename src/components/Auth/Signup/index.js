@@ -18,11 +18,8 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import styles from '../../../pages/signup/signup.module.css';
 import RaisedButton from '../../RaisedButton';
-import {
-    REGISTER_FAIL,
-    REGISTER_SUCCESS,
-} from '../../../_actions/types';
-import {  signUp } from '../../../_actions/authActions';
+import { REGISTER_FAIL, REGISTER_SUCCESS } from '../../../_actions/types';
+import { signUp } from '../../../_actions/authActions';
 
 const SignupComponent = () => {
     const auth = useSelector((state) => state.auth);
@@ -78,7 +75,7 @@ const SignupComponent = () => {
     return (
         <Container>
             <Form className={styles.form} onSubmit={(e) => handleSubmit(e)}>
-                <h1 className="heading display-4 mb-4">
+                <h1 className="heading-title display-4 mb-4">
                     Create a new Account...
                 </h1>
                 {errorMessage ? (

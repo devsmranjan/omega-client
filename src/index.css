@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&Merriweather+Sans&Poppins&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Poppins&family=Redressed&display=swap');
 
 :root {
     --color-primary: #007bff;
@@ -9,6 +8,7 @@
     --font-sans-serif: 'Poppins', sans-serif;
     /* --font-sans-serif: 'Merriweather Sans', sans-serif; */
     --font-mono: 'JetBrains Mono', monospace;
+    --font-cursive: 'Redressed', cursive;
 }
 
 

@@ -59,7 +59,9 @@ const LoginComponent = () => {
     return (
         <Container>
             <Form className={styles.form} onSubmit={(e) => handleSubmit(e)}>
-                <h1 className="heading display-4 mb-4">Welcome Back...</h1>
+                <h1 className="heading-title display-4 mb-4">
+                    Welcome Back...
+                </h1>
                 {errorMessage ? (
                     <Alert variant="danger">{errorMessage}</Alert>
                 ) : null}
